@@ -5,4 +5,4 @@ password = "admin123"
 schemas = ["public"]
 
 [flyway]
-locations = ["filesystem:sql"]
+locations = ["filesystem:sql", "filesystem:repetible"]
